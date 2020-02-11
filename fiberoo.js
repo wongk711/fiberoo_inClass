@@ -6,11 +6,11 @@ function fib(size) {
   return ret;
 }
 
-function numToStrings(numList){
+function numToStrings(numList) {
   return _.map(numList, (num) => `${num}`);
 }
 
-function numEvenNumbers(list){
+function numEvenNumbers(list) {
   return (_.filter(list, (num) => num % 2 === 0)).length;
 }
 
