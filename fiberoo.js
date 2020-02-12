@@ -11,9 +11,8 @@ function numToStrings(numList) {
 }
 
 function numEvenNumbers(list) {
-  return (_.filter(list, (num) => num % 2 === 0)).length;
+  return (_.filter(list, (num) => (num % 2 === 0))).length;
 }
 
-console.log(fib(50));
 console.log(numToStrings(fib(10)));
 console.log(numEvenNumbers(fib(50)));
